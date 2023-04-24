@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <div class="header">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="tasks-list">
-      <p class="tasks-list__add-section">
+    </header>
+    <main class="tasks-list">
+      <section class="tasks-list__add-section">
         <label for="new-task" class="tasks-list__section-title">Add Item</label>
         <div class="tasks-list__input-wrapper">
           <input id="new-task" class="tasks-list__add-input tasks-list__input-el tasks-list__txt-input" type="text">
           <button class="btn_add btn">Add</button>
         </div>
-      </p>
+      </section>
       <h3 class="tasks-list__section-title">Todo</h3>
-      <ul class="tasks-list__todo-section">
+      <section class="tasks-list__todo-section">
         <li class="tasks-list__task">
           <input type="checkbox" class="tasks-list__check-input">
           <label class="tasks-list__input-el tasks-list__label">Pay Bills</label>
@@ -34,9 +34,9 @@
           <button class="btn_edit btn">Save</button>
           <button class="btn_delete btn"><img class="btn_delete__img" src="./remove.svg"></button>
         </li>
-      </ul>
+      </section>
       <h3 class="tasks-list__section-title">Completed</h3>
-      <ul class="tasks-list__completed-section">
+      <section class="tasks-list__completed-section">
         <li class="tasks-list__task">
           <input type="checkbox" class="tasks-list__check-input" checked>
           <label class="tasks-list__input-el tasks-list__label">See the Doctor</label>
@@ -44,8 +44,8 @@
           <button class="btn_edit btn">Edit</button>
           <button class="btn_delete btn"><img class="btn_delete__img" src="./remove.svg"></button>
         </li>
-      </ul>
-    </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
