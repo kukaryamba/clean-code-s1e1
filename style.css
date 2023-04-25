@@ -61,9 +61,9 @@ button {
   outline: none;
 }
 
-.btn_add,
-.btn_edit,
-.btn_delete {
+.btn-add,
+.btn-edit,
+.btn-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -147,13 +147,13 @@ button {
   width: 226px;
 }
 
-.btn_delete__img {
+.btn-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn_delete__img:hover {
+.btn-delete__img:hover {
   transform: rotateZ(0);
 }
 
