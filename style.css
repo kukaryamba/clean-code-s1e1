@@ -45,14 +45,14 @@
   display: flex;
 }
 
-.tasks-list__todo-section,
-.tasks-list__completed-section {
+.tasks-list__todo,
+.tasks-list__completed {
   margin: 0;
   padding: 0px;
 }
 
 .tasks-list__task,
-.tasks-list__section-title {
+.tasks-list__title {
   list-style: none;
 }
 
@@ -79,7 +79,7 @@ button {
 
 /* Heading */
 
-.tasks-list__section-title {
+.tasks-list__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -108,7 +108,7 @@ button {
 
 /* New Task */
 
-.tasks-list__section-title {
+.tasks-list__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -159,7 +159,7 @@ button {
 
 /* Completed */
 
-.tasks-list__completed-section .tasks-list__label {
+.tasks-list__completed .tasks-list__label {
   text-decoration: line-through;
   color: #888;
 }
